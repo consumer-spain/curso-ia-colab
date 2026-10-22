@@ -7,7 +7,7 @@ prácticas de cada bloque desde el navegador con Google Colab, en el mismo orden
 |---|---|
 | 1 · Qué es programar con IA | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/consumer-spain/curso-ia-colab/blob/main/bloque1/bloque1_practicas.ipynb) |
 | 2 · De datos dispersos a estadísticas fiables | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/consumer-spain/curso-ia-colab/blob/main/bloque2/bloque2_practicas.ipynb) |
-| 3 · Cómo obtener información de una web con ayuda de la IA | próximamente |
+| 3 · Cómo obtener información de una web con ayuda de la IA | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/consumer-spain/curso-ia-colab/blob/main/bloque3/bloque3_practicas.ipynb) |
 | 4 · Evidencia digital | próximamente |
 | 5 · Del script al sistema | próximamente |
 
@@ -65,5 +65,31 @@ bloqueN/
 | Ampliaciones opcionales (controles integrados, cambio controlado con Aragón) | **Adaptada** |
 
 Este bloque no usa páginas web ni capturas con valor probatorio.
+
+## Bloque 3 · qué cambia en Colab
+
+En este bloque hay dos sitios de trabajo: **tu navegador** (webs, F12, Inspector, Network: igual que en clase) y
+**el cuaderno** (lo que en clase hace Python en tu equipo). El ZIP contiene la carpeta `01_ALUMNADO` del material de clase.
+
+| Práctica | En Colab |
+|---|---|
+| Antes de empezar (descomprimir, comprobar `LAB_WEB`, `INSTALAR_DEPENDENCIAS.bat`) | **Adaptada**: celda de Preparación (ejecuta `verificar_entorno_bloque3.py`) |
+| Definir · concretar el encargo (casos A, B, C) | **Igual** |
+| Dar contexto · primer mensaje a la IA (`01_PROMPT_PRIMER_CONTEXTO`) | **Igual** |
+| Geoportal · buscar y descargar el fichero de precios | **Igual** (en tu navegador) |
+| Geoportal · abrir el fichero en Excel y comprobarlo | **Adaptada**: se sube a Colab y se mira con `ver_excel` |
+| Abre la API en tu navegador y cambia la fecha | **Igual** (en tu navegador) |
+| Práctica Geoportal (prompt, script de la IA, ejecutar, corregir) | **Adaptada**: `%%writefile` y `!python`; la API se consulta desde servidores de Google y puede fallar → recuperación con `--respaldo` |
+| Comprobar · ¿lo daríais por bueno?, comprobaciones, falta una fecha | **Adaptada**: una celda prepara el resultado a revisar; se mira con `ver_excel` |
+| Laboratorio · arrancar (`INICIAR_LAB.bat`, `localhost:8765`) | **Adaptada**: una celda sirve la tienda desde Colab y da un enlace (no es `localhost`) |
+| Laboratorio · captura, Ctrl + S, DevTools, cambiar el precio, Inspector, Network | **Igual** (en tu navegador, sobre la tienda servida por Colab) |
+| Caso Mercadona · misión en tienda.mercadona.es | **Igual** (en tu navegador) |
+| Caso Mercadona · plan B `MERCADONA_CONGELADO` | **Adaptada**: la página guardada se abre con el enlace del laboratorio; capturas, fragmento y respuesta se ven en celdas |
+| Caso Mercadona · ¿ahora sí funciona? | **Adaptada**: se compara la tarjeta con la respuesta guardada |
+| Demostración · vivienda (navegador automatizado) | **No exportable**: es una demostración del docente; se sigue la explicación |
+| Mapa de vías · mini-práctica de los seis casos | **Igual** |
+| Bola extra BOE | **Adaptada**: `%%writefile` y `!python`; respaldo real si la API no responde desde Colab |
+
+Lo que se obtiene desde Colab sale de servidores de Google, no de un equipo institucional: **no tiene valor probatorio**.
 
 Repositorio temporal: se eliminará al terminar el curso.
