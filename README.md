@@ -100,7 +100,7 @@ y **el cuaderno** (lo que en clase hace Python en tu equipo). Los archivos para 
 
 | Práctica | En Colab |
 |---|---|
-| Comprobación inicial (`COMPROBAR_BLOQUE4.bat`) | **Adaptada**: celda de Preparación (avisa de que falta `tkinter`, lo esperable en Colab, y de si la TSA responde) |
+| Comprobación inicial (`COMPROBAR_BLOQUE4.bat`) | **Adaptada**: celda de Preparación (comprueba paquetes, material y si la TSA responde) |
 | Pregunta, método de seis pasos, puestas en común | **Igual** |
 | Books · ejecutar y abrir el Excel (`EJECUTAR_BOOKS.bat`, Excel) | **Adaptada**: celda con el mismo respaldo si la web no responde; el Excel se ve con pandas |
 | Mini-reto fila 7 · ¿qué guardaríais? | **Igual** |
