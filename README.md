@@ -80,7 +80,7 @@ En este bloque hay dos sitios de trabajo: **tu navegador** (webs, F12, Inspector
 | Geoportal · buscar y descargar el fichero de precios | **Igual** (en tu navegador) |
 | Geoportal · abrir el fichero en Excel y comprobarlo | **Adaptada**: se sube a Colab y se mira con `ver_excel` |
 | Abre la API en tu navegador y cambia la fecha | **Igual** (en tu navegador) |
-| Práctica Geoportal (prompt, script de la IA, ejecutar, corregir) | **Adaptada**: `%%writefile` y `!python`; la API se consulta desde servidores de Google y puede fallar → recuperación con `--respaldo` |
+| Práctica Geoportal (prompt, script de la IA, ejecutar, corregir) | **Adaptada**: `%%writefile` y `!python`. Desde Colab la API oficial corta la conexión (comprobado): `usar_replica()` sirve, con la misma ruta, sus respuestas reales guardadas (provincia 28, 12–14/10/2026) y se pide a la IA que cambie solo la dirección base; recuperación con `--respaldo` |
 | Comprobar · ¿lo daríais por bueno?, comprobaciones, falta una fecha | **Adaptada**: una celda prepara el resultado a revisar; se mira con `ver_excel` |
 | Laboratorio · arrancar (`INICIAR_LAB.bat`, `localhost:8765`) | **Adaptada**: una celda sirve la tienda desde Colab y da un enlace (no es `localhost`) |
 | Laboratorio · captura, Ctrl + S, DevTools, cambiar el precio, Inspector, Network | **Igual** (en tu navegador, sobre la tienda servida por Colab) |
