@@ -8,7 +8,7 @@ prácticas de cada bloque desde el navegador con Google Colab, en el mismo orden
 | 1 · Qué es programar con IA | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/consumer-spain/curso-ia-colab/blob/main/bloque1/bloque1_practicas.ipynb) |
 | 2 · De datos dispersos a estadísticas fiables | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/consumer-spain/curso-ia-colab/blob/main/bloque2/bloque2_practicas.ipynb) |
 | 3 · Cómo obtener información de una web con ayuda de la IA | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/consumer-spain/curso-ia-colab/blob/main/bloque3/bloque3_practicas.ipynb) |
-| 4 · Evidencia digital | próximamente |
+| 4 · Elementos de prueba | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/consumer-spain/curso-ia-colab/blob/main/bloque4/bloque4_practicas.ipynb) |
 | 5 · Del script al sistema | próximamente |
 
 ## Cómo se usa
@@ -24,6 +24,7 @@ No subas a Colab datos reales ni información interna: todo el material del curs
 bloqueN/
 ├── bloqueN_practicas.ipynb     cuaderno del bloque
 └── BLOQUEN_MATERIALES.zip      el mismo ZIP de materiales que se usa en clase
+                                (en el Bloque 4 se llama BLOQUE4_ALUMNADO.zip, como en clase)
 ```
 
 ## Bloque 1 · qué cambia en Colab
@@ -89,6 +90,38 @@ En este bloque hay dos sitios de trabajo: **tu navegador** (webs, F12, Inspector
 | Demostración · vivienda (navegador automatizado) | **No exportable**: es una demostración del docente; se sigue la explicación |
 | Mapa de vías · mini-práctica de los seis casos | **Igual** |
 | Bola extra BOE | **Adaptada**: `%%writefile` y `!python`; respaldo real si la API no responde desde Colab |
+
+Lo que se obtiene desde Colab sale de servidores de Google, no de un equipo institucional: **no tiene valor probatorio**.
+
+## Bloque 4 · qué cambia en Colab
+
+Hay dos sitios de trabajo: **tu navegador** (las herramientas web del curso: `/exif`, `/hash`, `/ip`, `/verificador`: igual que en clase)
+y **el cuaderno** (lo que en clase hace Python en tu equipo). Los archivos para la web se descargan desde el cuaderno con una celda.
+
+| Práctica | En Colab |
+|---|---|
+| Comprobación inicial (`COMPROBAR_BLOQUE4.bat`) | **Adaptada**: celda de Preparación (avisa de que falta `tkinter`, lo esperable en Colab, y de si la TSA responde) |
+| Pregunta, método de seis pasos, puestas en común | **Igual** |
+| Books · ejecutar y abrir el Excel (`EJECUTAR_BOOKS.bat`, Excel) | **Adaptada**: celda con el mismo respaldo si la web no responde; el Excel se ve con pandas |
+| Mini-reto fila 7 · ¿qué guardaríais? | **Igual** |
+| RECOGER · ficha del libro 7 (`RECOGER_LIBRO_7.bat`) | **Adaptada**: celda, con respaldo |
+| CONTEXTUALIZAR · Propiedades → Detalles de Windows | **No exportable**: se usa la herramienta del curso |
+| CONTEXTUALIZAR · metadatos (`1_VER_METADATOS.bat`) | **Adaptada**: celda; la imagen se ve con `display` |
+| CONTEXTUALIZAR · `/exif` | **Igual** (en tu navegador; los archivos se descargan desde una celda) |
+| CONTEXTUALIZAR · `/ip` | **Igual, solo en tu navegador**. Una celda de contraste muestra que desde Colab la IP sería la de un centro de datos de Google |
+| FIJAR · ver extensiones en el Explorador | **No exportable**: en Colab se ven siempre |
+| FIJAR · predice y comprueba, un solo carácter (copiar, F2, Bloc de notas, `2_COMPARAR_HASHES.bat`) | **Adaptada**: celdas que copian y modifican; la predicción la haces tú antes |
+| FIJAR · `/hash` | **Igual** (en tu navegador) |
+| VINCULAR AL TIEMPO · petición real, cinco preguntas, qué comprobaría un verificador | **Igual** / **Adaptada** (`ver_peticion.py` en una celda) |
+| VINCULAR AL TIEMPO · mismo sello, dos archivos (`3_VERIFICAR_SELLO.bat`, `/verificador`) | **Adaptada**: celda; `/verificador` igual en tu navegador |
+| DOCUMENTAR · original / copia / derivado, manifiesto, localiza campos (Bloc de notas) | **Adaptada**: `!cat` del manifiesto de muestra |
+| VERIFICAR · dos paquetes técnicamente correctos | **Igual** |
+| Taller del sellador · núcleo, criterios, prompt, decisiones | **Igual** |
+| Taller del sellador · la ventana (`tkinter`) | **Adaptada**: formulario de Colab + celda que hace de botón; `ejecutar_sellado()` con `print`/`input()`. La TSA puede no responder desde Google: hay paquete de contingencia |
+| Taller del sellador · `COMPROBAR_PAQUETE.bat` y prueba negativa (Paint) | **Adaptada**: celdas (el punto se pinta con Pillow) |
+| CONSUMOKU · descarga del ZIP, manifiesto, imágenes, hojas de cálculo | **Adaptada**: el ZIP se sube a Colab; Excel con pandas, imágenes con `display` |
+| CONSUMOKU · verificación de sellos y formulario de fallo | **Igual** (celda o `/verificador`; el formulario, en la web) |
+| Resolución y cierre | **Igual** (se hace en común) |
 
 Lo que se obtiene desde Colab sale de servidores de Google, no de un equipo institucional: **no tiene valor probatorio**.
 
