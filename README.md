@@ -9,7 +9,7 @@ prácticas de cada bloque desde el navegador con Google Colab, en el mismo orden
 | 2 · De datos dispersos a estadísticas fiables | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/consumer-spain/curso-ia-colab/blob/main/bloque2/bloque2_practicas.ipynb) |
 | 3 · Cómo obtener información de una web con ayuda de la IA | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/consumer-spain/curso-ia-colab/blob/main/bloque3/bloque3_practicas.ipynb) |
 | 4 · Elementos de prueba | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/consumer-spain/curso-ia-colab/blob/main/bloque4/bloque4_practicas.ipynb) |
-| 5 · Del script al sistema | próximamente |
+| 5 · Del script al sistema | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/consumer-spain/curso-ia-colab/blob/main/bloque5/bloque5_practicas.ipynb) |
 
 ## Cómo se usa
 1. Abre el enlace del bloque.
@@ -122,6 +122,23 @@ y **el cuaderno** (lo que en clase hace Python en tu equipo). Los archivos para 
 | CONSUMOKU · descarga del ZIP, manifiesto, imágenes, hojas de cálculo | **Adaptada**: el ZIP se sube a Colab; Excel con pandas, imágenes con `display` |
 | CONSUMOKU · verificación de sellos y formulario de fallo | **Igual** (celda o `/verificador`; el formulario, en la web) |
 | Resolución y cierre | **Igual** (se hace en común) |
+
+Lo que se obtiene desde Colab sale de servidores de Google, no de un equipo institucional: **no tiene valor probatorio**.
+
+## Bloque 5 · qué cambia en Colab
+
+Las prácticas con IA (prompts), Healthchecks.io, Telegram y las APIs de IA se hacen **en tu navegador o en tu móvil**, como en clase. El cuaderno cubre lo que en clase hace Python o Windows en tu equipo.
+
+| Práctica | En Colab |
+|---|---|
+| Comprobación y preparación del entorno (`COMPROBAR_BLOQUE5.bat`, `PREPARAR_ENTORNO_BLOQUE5.bat`) | **Adaptada**: celda de Preparación (instala Playwright y Chromium; tarda cerca de un minuto la primera vez; se puede repetir) |
+| ¿Cabe en un Excel? (91 días sí, 92 no) | **Igual** (formulario con números) |
+| Base relacional de ejemplo (DB Browser for SQLite) | **Adaptada**: `sqlite3` y pandas, solo lectura (`ver_tabla`, `consulta`) |
+| Prompts para diseñar la base y pedir la consulta; revisar el resultado (+0,20 € café, +0,02 € leche) | **Igual** (la consulta de la IA se pega en una celda `%%writefile`) |
+| Programador de tareas (`CURSO_IA_DEMO`, `notepad.exe`) y lanzador `.bat` | **No exportable**: Colab no es Windows. Una celda programa una tarea equivalente dentro de la sesión (la idea es la misma, la herramienta no) |
+| Log, Healthchecks.io, alertas por Telegram, análisis con IA | **Igual** (en tu navegador o móvil; no se ejecutan desde el cuaderno) |
+| Reto final Mercadona | **Adaptada**: `%%writefile` + `!python` con Playwright en modo sin ventana. Mercadona responde desde Google; empieza por 2–3 categorías |
+| Contraste manual y checklist | **Igual** (con la web actual en tu navegador) |
 
 Lo que se obtiene desde Colab sale de servidores de Google, no de un equipo institucional: **no tiene valor probatorio**.
 
