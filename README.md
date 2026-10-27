@@ -102,26 +102,22 @@ y **el cuaderno** (lo que en clase hace Python en tu equipo). Los archivos para 
 | Práctica | En Colab |
 |---|---|
 | Comprobación inicial (`COMPROBAR_BLOQUE4.bat`) | **Adaptada**: celda de Preparación (comprueba paquetes, material y si la TSA responde) |
-| Pregunta, método de seis pasos, puestas en común | **Igual** |
+| Pregunta, puesta en común y ruta de seis pasos | **Igual** |
 | Books · ejecutar y abrir el Excel (`EJECUTAR_BOOKS.bat`, Excel) | **Adaptada**: celda con el mismo respaldo si la web no responde; el Excel se ve con pandas |
 | Mini-reto fila 7 · ¿qué guardaríais? | **Igual** |
 | RECOGER · ficha del libro 7 (`RECOGER_LIBRO_7.bat`) | **Adaptada**: celda, con respaldo |
 | CONTEXTUALIZAR · Propiedades → Detalles de Windows | **No exportable**: se usa la herramienta del curso |
 | CONTEXTUALIZAR · metadatos (`1_VER_METADATOS.bat`) | **Adaptada**: celda; la imagen se ve con `display` |
-| CONTEXTUALIZAR · `/exif` | **Igual** (en tu navegador; los archivos se descargan desde una celda) |
-| CONTEXTUALIZAR · `/ip` | **Igual, solo en tu navegador**. Una celda de contraste muestra que desde Colab la IP sería la de un centro de datos de Google |
-| FIJAR · ver extensiones en el Explorador | **No exportable**: en Colab se ven siempre |
-| FIJAR · predice y comprueba, un solo carácter (copiar, F2, Bloc de notas, `2_COMPARAR_HASHES.bat`) | **Adaptada**: celdas que copian y modifican; la predicción la haces tú antes |
+| CONTEXTUALIZAR · `/exif`, `/ip` | **Igual, en tu navegador** (los archivos se descargan desde una celda). Desde Colab la IP sería la de un centro de datos de Google |
+| FIJAR · predice y comprueba, un solo carácter (`2_COMPARAR_HASHES.bat`) | **Adaptada**: celdas que copian y modifican; la predicción la haces tú antes |
 | FIJAR · `/hash` | **Igual** (en tu navegador) |
-| VINCULAR AL TIEMPO · petición real, cinco preguntas, qué comprobaría un verificador | **Igual** / **Adaptada** (`ver_peticion.py` en una celda) |
-| VINCULAR AL TIEMPO · mismo sello, dos archivos (`3_VERIFICAR_SELLO.bat`, `/verificador`) | **Adaptada**: celda; `/verificador` igual en tu navegador |
-| DOCUMENTAR · original / copia / derivado, manifiesto, localiza campos (Bloc de notas) | **Adaptada**: `!cat` del manifiesto de muestra |
-| VERIFICAR · dos paquetes técnicamente correctos | **Igual** |
-| Taller del sellador · núcleo, criterios, prompt, decisiones | **Igual** |
-| Taller del sellador · la ventana (`tkinter`) | **Adaptada**: formulario de Colab + celda que hace de botón; `ejecutar_sellado()` con `print`/`input()`. La TSA puede no responder desde Google: hay paquete de contingencia |
-| Taller del sellador · `COMPROBAR_PAQUETE.bat` y prueba negativa (Paint) | **Adaptada**: celdas (el punto se pinta con Pillow) |
+| VINCULAR AL TIEMPO · petición real (`ver_peticion.py`), SÍ/NO | **Adaptada** / **Igual** |
+| VINCULAR AL TIEMPO · verifica el sello del paquete Orion B (`3_VERIFICAR_SELLO.bat`, `/verificador`) | **Adaptada**: celda; `/verificador` igual en tu navegador |
+| DOCUMENTAR · original / copia / derivado, abrir el manifiesto del paquete B | **Adaptada**: celdas (`comparar_hashes`, `!cat` del manifiesto) |
+| VERIFICAR · dos paquetes A/B, `COMPROBAR_PAQUETE`, prueba negativa | **Adaptada**: celdas; la modificación se hace sobre una copia (`neg_B`) |
 | CONSUMOKU · descarga del ZIP, manifiesto, imágenes, hojas de cálculo | **Adaptada**: el ZIP se sube a Colab; Excel con pandas, imágenes con `display` |
 | CONSUMOKU · verificación de sellos y formulario de fallo | **Igual** (celda o `/verificador`; el formulario, en la web) |
+| BOLA EXTRA (opcional) · `SELLADOR_BASE.py`, prompt, comprobación | **Adaptada**: terminal y prompt; la ventana de la versión mejorada solo en tu ordenador. La TSA puede no responder desde Google |
 | Resolución y cierre | **Igual** (se hace en común) |
 
 Lo que se obtiene desde Colab sale de servidores de Google, no de un equipo institucional: **no tiene valor probatorio**.
