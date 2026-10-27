@@ -43,8 +43,8 @@ bloqueN/
 
 ## Bloque 2 · qué cambia en Colab
 
-Sincronizado con la presentación V17 (materiales V16): cinco retos (documentación · muestra sintética · modelo de 2 CCAA · normalización ·
-campaña estatal) y una bola extra opcional. Cada reto tiene `01_ENTRADAS`, una carpeta de trabajo y una carpeta *resuelto*;
+Sincronizado con la presentación V18 (materiales V16): cuatro retos (documentación · modelo de 2 CCAA · normalización ·
+campaña estatal) y dos bolas extra opcionales (1 · muestra sintética, tras RESTRICCIONES; 2 · auditor independiente, al final). Cada reto tiene `01_ENTRADAS`, una carpeta de trabajo y una carpeta *resuelto*;
 el cuaderno cierra cada reto con su sección «Si te bloqueas».
 
 | Práctica | En Colab |
@@ -54,17 +54,17 @@ el cuaderno cierra cada reto con su sección «Si te bloqueas».
 | Reto 1 · criterios, prompt, 20 min y validación 21 / 3 / 1 / 2 | **Adaptada**: el código de la IA se pega en una celda `%%writefile` y se ejecuta con `!python` |
 | Reto 1 · ampliación con interfaz (`tkinter`) | **No exportable**: no se abren ventanas en Colab; alternativa por línea de comandos |
 | Encargo estatal · 8 piezas, mensajes 1–5 a la IA, reglas (8/10 frente a 10/40) | **Igual** |
-| Reto 2 · muestra sintética (prompt, script, comprobar tu muestra, resolución con la de referencia) | **Adaptada**: `%%writefile`, `!python` y `ver_excel` |
-| Reto 3 · el modelo manual y sus 4 gráficas | **Adaptada**: `ver_excel`; las gráficas se listan y se descargan para verlas |
-| Reto 3 · combinar 2 CCAA, comparar con el resultado conocido, cambio controlado, núcleo del modelo | **Adaptada**: las tablas se ven con `ver_excel`; la comparación la hace el alumno; el cambio controlado pide `--madrid` y `--salida` |
+| ★ Bola extra 1 · muestra sintética (prompt, script, comprobar tu muestra, resolución con la de referencia) | **Adaptada**: `%%writefile`, `!python` y `ver_excel` |
+| Reto 2 · el modelo manual y sus 4 gráficas | **Adaptada**: `ver_excel`; las gráficas se listan y se descargan para verlas |
+| Reto 2 · combinar 2 CCAA, comparar con el resultado conocido, cambio controlado, núcleo del modelo | **Adaptada**: las tablas se ven con `ver_excel`; la comparación la hace el alumno; el cambio controlado pide `--madrid` y `--salida` |
 | Adjuntar archivos a la IA (mensajes 4 y 5) | **Adaptada**: se descargan desde Colab y se suben al chat de la IA |
-| Reto 4 · archivos y variaciones (Aragón, Asturias, Galicia, Murcia, Comunitat Valenciana) | **Adaptada**: Madrid y el pendiente, uno bajo otro, con números de fila y letras de columna |
-| Reto 4 · normalizador y resultado del comprobador de referencia (5 OK) | **Adaptada** / **Igual**; ampliación: el comprobador de referencia sobre tus normalizados |
-| Reto 5 · trabajo autónomo (20 min) y «Ya tenemos un informe estatal» | **Adaptada**: `%%writefile` y `!python`; sin libro propio se ve la forma de un libro completo de ejemplo |
-| Reto 5 · ¿está todo?, `CONTROL_CARGA`, diagnóstico de tipos (12 frente a '12'), corrección limitada | **Adaptada**: la versión limitada (`01_CONSOLIDAR_BASE.py`) la genera el alumno con una celda (en clase la tiene preparada el docente); sin libro propio se revisa esa versión |
-| Reto 5 · cierre (Excel final, resumen por bloques, 4 gráficas, entregables) | **Adaptada**: la solución de referencia la ejecuta el alumno; gráficas por descarga |
+| Reto 3 · archivos y variaciones (Aragón, Asturias, Galicia, Murcia, Comunitat Valenciana) | **Adaptada**: Madrid y el pendiente, uno bajo otro, con números de fila y letras de columna |
+| Reto 3 · normalizador y resultado del comprobador de referencia (5 OK) | **Adaptada** / **Igual**; ampliación: el comprobador de referencia sobre tus normalizados |
+| Reto 4 · trabajo autónomo (20 min) y «Ya tenemos un informe estatal» | **Adaptada**: `%%writefile` y `!python`; sin libro propio se ve la forma de un libro completo de ejemplo |
+| Reto 4 · ¿está todo?, `CONTROL_CARGA`, diagnóstico de tipos (12 frente a '12'), corrección limitada | **Adaptada**: la versión limitada (`01_CONSOLIDAR_BASE.py`) la genera el alumno con una celda (en clase la tiene preparada el docente); sin libro propio se revisa esa versión |
+| Reto 4 · cierre (Excel final, resumen por bloques, 4 gráficas, entregables) | **Adaptada**: la solución de referencia la ejecuta el alumno; gráficas por descarga |
 | Cinco preguntas antes de confiar y mapa 8/8 (cierre) | **Igual** |
-| Bola extra · auditor independiente, prueba negativa (informe A), controles integrados, cambio controlado con Aragón | **Adaptada**: `%%writefile` y `!python`; el informe A viene en el material |
+| ★ Bola extra 2 · auditor independiente, prueba negativa (informe A), controles integrados, cambio controlado con Aragón | **Adaptada**: `%%writefile` y `!python`; el informe A viene en el material |
 
 Este bloque no usa páginas web ni capturas con valor probatorio.
 
