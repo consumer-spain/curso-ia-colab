@@ -115,7 +115,7 @@ y **el cuaderno** (lo que en clase hace Python en tu equipo). Los archivos para 
 | VINCULAR AL TIEMPO · verifica el sello del paquete Orion B (`3_VERIFICAR_SELLO.bat`, `/verificador`) | **Adaptada**: celda; `/verificador` igual en tu navegador |
 | DOCUMENTAR · original / copia / derivado, abrir el manifiesto del paquete B | **Adaptada**: celdas (`comparar_hashes`, `!cat` del manifiesto) |
 | VERIFICAR · dos paquetes A/B, `COMPROBAR_PAQUETE`, prueba negativa | **Adaptada**: celdas; la modificación se hace sobre una copia (`neg_B`) |
-| CONSUMOKU · descarga del ZIP, manifiesto, imágenes, hojas de cálculo | **Adaptada**: el ZIP se sube a Colab; Excel con pandas, imágenes con `display` |
+| CONSUMOKU · manifiesto, imágenes, hojas de cálculo | **Adaptada**: el material ya viene dentro del ZIP de la preparación (`BLOQUE4/04_CONSUMOKU`); no hay que subir nada. Excel con pandas, imágenes con `display` |
 | CONSUMOKU · verificación de sellos y formulario de fallo | **Igual** (celda o `/verificador`; el formulario, en la web) |
 | BOLA EXTRA (opcional) · `SELLADOR_BASE.py`, prompt, comprobación | **Adaptada**: terminal y prompt; la ventana de la versión mejorada solo en tu ordenador. La TSA puede no responder desde Google |
 | Resolución y cierre | **Igual** (se hace en común) |
